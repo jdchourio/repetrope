@@ -1,7 +1,7 @@
 {
   "name" : "Usa Muscle Plus",
-  "version" : "1.0.0",
-  "description" : "Get image info for images, including EXIF data",
+  "version" : "1.0.1",
+  "description" : "Chrome extension that simplifies loading repetrope images",
   "content_scripts" : [
     { 
         "matches": ["http://www.usamuscle.com/*"],
