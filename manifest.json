@@ -1,0 +1,13 @@
+{
+  "name" : "Usa Muscle Plus",
+  "version" : "1.0.0",
+  "description" : "Get image info for images, including EXIF data",
+  "content_scripts" : [
+    { 
+        "matches": ["http://www.usamuscle.com/*"],
+        "js": ["background.js"] 
+    }
+  ],
+  "minimum_chrome_version" : "6.0.0.0",
+  "manifest_version": 2
+}
